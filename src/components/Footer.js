@@ -6,7 +6,7 @@ function Footer() {
     <FooterContainer>
       <InfoWrapper>
         <div className="infoOne">
-          <p>병원명: 인천24시스카이동물의료센터</p>
+          <p>병원명: 광주24시스카이동물의료센터</p>
           <div className="separator"></div>
           <p>대표자: 오이세</p>
           <div className="separator"></div>
@@ -16,7 +16,7 @@ function Footer() {
         <div className="infoTwo">
           <p>T. 032-715-7959</p>
           <div className="separator"></div>
-          <p>인천광역시 남동구 남동대로 799번길 34</p>
+          <p>광주광역시 남동구 남동대로 799번길 34</p>
         </div>
         <div className="infoThree">
           <p>Copyright ⓒ 2023.</p>

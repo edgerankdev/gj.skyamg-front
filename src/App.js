@@ -76,7 +76,7 @@ function App() {
       {/* <Links /> */}
 
       <Helmet>
-        <title>인천 SKY 동물의료센터</title>
+        <title>광주 SKY 동물의료센터</title>
       </Helmet>
       <Routes>
         <Route path="/" element={<Main name={"Main"} />} />

@@ -68,14 +68,14 @@ function Introduce() {
           <h2>안녕하세요.</h2>
           <h2>
             <strong>
-              인천SKY동물메디컬센터
+              광주SKY동물메디컬센터
               <br /> 대표원장 문종선입니다.
             </strong>
           </h2>
         </div>
         <div className={animate ? "contentWrapper animate" : "contentWrapper"}>
           <p style={{ whiteSpace: "pre-wrap", maxWidth: "600px" }}>
-            {`저희 인천SKY동물메디컬센터는 2014년 개원 이래로, 우리 아이들이 정확한 진단과 신속한 치료를 받게 하는 것을 사명으로 새기고 성장해왔습니다.
+            {`저희 광주SKY동물메디컬센터는 2014년 개원 이래로, 우리 아이들이 정확한 진단과 신속한 치료를 받게 하는 것을 사명으로 새기고 성장해왔습니다.
 
 최신의 의료 시설과 각 분야의 전문 인력들이 지금 이 순간에도 아이들의 건강을 위하여 노력을 아끼지 않고 있습니다.
 

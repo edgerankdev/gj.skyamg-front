@@ -22,7 +22,7 @@ function Main() {
   return (
     <>
       <Helmet>
-        <title>인천스카이동물메디컬센터</title>
+        <title>광주스카이동물메디컬센터</title>
       </Helmet>
       <Popup open={true} />
       <Slider2 />

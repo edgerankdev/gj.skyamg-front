@@ -5,7 +5,7 @@ const MetaTag = (props) => {
   // props로 content 내용을 불러올 예정임
   return (
     <Helmet>
-      <title>{`인천스카이동물메디컬센터 - ${props.title}`}</title>
+      <title>{`광주스카이동물메디컬센터 - ${props.title}`}</title>
 
       <meta
         name="description"
@@ -14,19 +14,19 @@ const MetaTag = (props) => {
       />
       <meta
         name="keywords"
-        content={`${props.keywords}, 인천 동물병원, 인천 sky, 24시 동물병원, 인천 24시 동물병원`}
+        content={`${props.keywords}, 광주 동물병원, 광주 sky, 24시 동물병원, 광주 24시 동물병원`}
         data-react-helmet="true"
       />
       <meta name="robots" content="index, follow" />
       <meta property="og:type" content="website" />
       <meta
         property="og:title"
-        content="인천스카이동물메디컬센터"
+        content="광주스카이동물메디컬센터"
         data-react-helmet="true"
       />
       <meta
         property="og:site_name"
-        content="인천스카이동물메디컬센터"
+        content="광주스카이동물메디컬센터"
         data-react-helmet="true"
       />
       <meta

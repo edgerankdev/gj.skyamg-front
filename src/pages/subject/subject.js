@@ -197,7 +197,7 @@ function Subject() {
           </Typography>
           <Typography className="section-title" gutterBottom>
             <span style={{ color: "#3260AE" }}>
-              인천SKY동물메디컬센터의 {info.title}가
+              광주SKY동물메디컬센터의 {info.title}가
             </span>{" "}
             특별한 이유!
           </Typography>
