@@ -255,15 +255,15 @@ const centerInfo = [
     primaryImg: img101,
     titleImg: titleImg3,
     vetMemberIdx: [5, 2],
-    title: "내과질환센터",
+    title: "중증내과센터",
     enTitle: "Internal Medicine Center",
     subTitle: `심장, 신장질환 특화
 고양이 의료시설 분리
 한방치료 병행`,
     sec2: {
       title1: "행복한 노년기를 위해",
-      title2: "SKY 내과질환센터",
-      description: `내과질환센터에서는 노령에 접어든 환자의 기대 수명 연장 및 삶의 질 개선을 목표로 하고 있습니다. 정확한 진단과 함께 환자 상태를 다방면으로 고려한 내복약 처방이 이루어지며 내과학 전공자의 판단 하에 치료 및 관리가 이루어집니다.
+      title2: "SKY 중증내과센터",
+      description: `중증내과센터에서는 노령에 접어든 환자의 기대 수명 연장 및 삶의 질 개선을 목표로 하고 있습니다. 정확한 진단과 함께 환자 상태를 다방면으로 고려한 내복약 처방이 이루어지며 내과학 전공자의 판단 하에 치료 및 관리가 이루어집니다.
       `,
     },
     sec3: [
@@ -351,15 +351,15 @@ const centerInfo = [
     primaryImg: img101,
     titleImg: titleImg4,
     vetMemberIdx: [1, 5, 8],
-    title: "한방재활센터",
+    title: "종양항암센터",
     enTitle: "Traditional Chinese Medicine Center",
     subTitle: `수의한방침치료인증과정 수료
 반복적인 세션 치료
 동물전용 한방의료기구 사용`,
     sec2: {
       title1: "비침습적, 하지만 최선의 효과",
-      title2: "SKY 한방재활센터",
-      description: `한방재활센터에서는 양방 의존적인 고전 방법에서 벗어나 치료 방향의 다양화를 목표로 하고 있습니다. 침습적인 치료가 어렵거나 양방 치료를 통한 예후가 좋지 못한 환자들에게 수의한방침치료인증과정을 수료한 수의사에 의한 한방 및 재활치료가 이루어집니다.
+      title2: "SKY 종양항암센터",
+      description: `종양항암센터에서는 양방 의존적인 고전 방법에서 벗어나 치료 방향의 다양화를 목표로 하고 있습니다. 침습적인 치료가 어렵거나 양방 치료를 통한 예후가 좋지 못한 환자들에게 수의한방침치료인증과정을 수료한 수의사에 의한 한방 및 재활치료가 이루어집니다.
       `,
     },
     sec3: [

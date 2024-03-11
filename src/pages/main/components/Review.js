@@ -6,7 +6,7 @@ import dayjs from "dayjs";
 import { keyframes } from "styled-components";
 
 export async function getReview() {
-  const response = await axios.get("/homepageReview?vetIdx=6");
+  const response = await axios.get("/homepageReview?vetIdx=11");
   return response.data;
 }
 

@@ -53,10 +53,10 @@ export default function Sidebar({ open, onClose }) {
             정형신경센터
           </StyledSubLink>
           <StyledSubLink to="/subject/3" onClick={handleClose}>
-            내과질환센터
+            중증내과센터
           </StyledSubLink>
           <StyledSubLink to="/subject/4" onClick={handleClose}>
-            한방재활센터
+            종양항암센터
           </StyledSubLink>
           <StyledSubLink to="/subject/5" onClick={handleClose}>
             응급의학센터

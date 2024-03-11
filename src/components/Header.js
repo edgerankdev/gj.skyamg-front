@@ -58,10 +58,10 @@ function Header({ isScrolledDown }) {
                 <StyledLink to="/subject/2">정형신경센터</StyledLink>
               </li>
               <li>
-                <StyledLink to="/subject/3">내과질환센터</StyledLink>
+                <StyledLink to="/subject/3">중증내과센터</StyledLink>
               </li>
               <li>
-                <StyledLink to="/subject/4">한방재활센터</StyledLink>
+                <StyledLink to="/subject/4">종양항암센터</StyledLink>
               </li>
               <li>
                 <StyledLink to="/subject/5">응급의학센터</StyledLink>

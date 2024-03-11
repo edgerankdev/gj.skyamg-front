@@ -23,7 +23,21 @@ function KakaoMap() {
 
   return (
     <>
-      <div id="map" style={{ width: "100%", height: "100%" }}></div>
+      {kakao ? (
+        <div id="map" style={{ width: "100%", height: "100%" }}></div>
+      ) : (
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          Kakao Map API가 로드되지 않았습니다.
+        </div>
+      )}
     </>
   );
 }

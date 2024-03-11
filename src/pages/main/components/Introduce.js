@@ -69,7 +69,7 @@ function Introduce() {
           <h2>
             <strong>
               광주SKY동물메디컬센터
-              <br /> 대표원장 문종선입니다.
+              <br /> 대표원장 백성현입니다.
             </strong>
           </h2>
         </div>
@@ -83,7 +83,7 @@ function Introduce() {
 감사합니다.
 `}
             <p>
-              <strong>대표원장 문종선 올림.</strong>
+              <strong>대표원장 백성현 올림.</strong>
             </p>
             {/* 24시간 연중무휴로 공휴일, 명절 없이 한밤중이라도 걱정없이
             {windowWidth > 800 ? <br /> : ", "}

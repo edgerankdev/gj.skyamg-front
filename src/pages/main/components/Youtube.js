@@ -41,7 +41,7 @@ import axios from "axios";
 // ];
 
 export async function getYoutubeList() {
-  const response = await axios.get("/youtube?vetIdx=6");
+  const response = await axios.get("/youtube?vetIdx=11");
   return response.data;
 }
 
@@ -149,7 +149,7 @@ function Youtube() {
       <EmbedWrapper>
         <div className="textWrapper">
           <div className="heading">
-            <h3>광주SKY동물메디컬센터</h3>
+            <h3>SKY동물메디컬센터</h3>
             <div>
               <img src={youtubeLogo} alt="youtube logo" />
             </div>

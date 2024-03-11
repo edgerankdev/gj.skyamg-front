@@ -40,19 +40,35 @@ function Location() {
             <div className="heading">
               <h3>Contact</h3>
             </div>
-            <p>
-              광주광역시 남동구 남동대로 799번길 34
-              <br /> 구월지웰시티푸르지오 C동 3층
+            <p>광주 서구 상무대로 879 두왕빌딩 3,4,5층</p>
+            <p style={{ fontSize: "12px" }}>
+              운천역3번출구 바로 앞 건물입니다.
             </p>
-            <p className="phone">☎️ 032-715-7959</p>
+            <p className="phone">☎️ 062-719-4275</p>
           </div>
           <div className="parkWrapper">
             <div className="heading">
               <h3>주차안내</h3>
             </div>
+            <p>건물 내 지하 주차장 이용이 가능합니다.</p>
+          </div>
+          <div className="parkWrapper">
+            <div className="heading">
+              <h3>진료시간 안내</h3>
+            </div>
             <p>
-              구월지웰시티푸르지오 건물 내 <br />
-              지하 주차장 이용이 가능합니다.
+              일반진료 9:00 ~ 19:00
+              <br />
+              야간진료 19:00 ~ 24:00
+              <br />
+              심야응급진료 24:00 ~ 9:00
+              <br />
+              <br />
+              점심 및 회진 시간 13:00 ~ 14:30
+              <br />
+              저녁시간 17:00 ~ 19:00
+              <br />
+              <br />
             </p>
           </div>
         </div>
@@ -128,6 +144,7 @@ const LocationContainer = styled.section`
 
   @media screen and (max-width: 690px) {
     flex-direction: column;
+    height: fit-content;
   }
 `;
 

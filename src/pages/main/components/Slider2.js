@@ -12,20 +12,19 @@ import bgImg2 from "../../../images/resource/images/263A9095_편집본.png";
 import toplogo_w from "../../../images/common/toplogo_w.png";
 
 function Preview() {
-  const [windowWidth, setWindowWidth] = useState();
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 800);
 
   useEffect(() => {
-    setWindowWidth(window.innerWidth);
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 800);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
-
-  useEffect(() => {
-    if (windowWidth > 800) {
-      setIsMobile(false);
-    } else {
-      setIsMobile(true);
-    }
-  }, [windowWidth]);
 
   const settings = {
     dots: false,
@@ -88,7 +87,7 @@ function Preview() {
             <div className="slideImg imgThree">
               <div className={isMobile ? "innerText_m" : "innerText"}>
                 <p>
-                  <strong>최첨단 시스템 도입</strong>
+                  <strong>광주 전남 지역 유일</strong>
                 </p>
                 <img
                   src={toplogo_w}
@@ -98,10 +97,10 @@ function Preview() {
                 />
                 <p className={isMobile ? "bar_m" : "bar"}>|</p>
                 <p className={isMobile ? "smallText_m" : "smallText"}>
-                  <strong>차별화되고 특화된 전문진료로,</strong>
+                  MRI, 이제 멀리가지 말고,
                 </p>
                 <p className={isMobile ? "smallText_m" : "smallText"}>
-                  우리 가족의 건강한 행복을 약속합니다.
+                  <strong>가까운 곳에서 받으세요</strong>
                 </p>
               </div>
             </div>
