@@ -64,7 +64,7 @@ export default function Sidebar({ open, onClose }) {
         </StyledSubLinks>
       )}
       <StyledLink
-        to="https://icw.skyamg.com"
+        to="https://kjw.skyamg.com"
         target="_blank"
         onClick={handleClose}
       >

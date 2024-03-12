@@ -70,7 +70,7 @@ function Header({ isScrolledDown }) {
           </StyledSubUl>
         </li>
         <li>
-          <StyledLink to="https://icw.skyamg.com" target="_blank">
+          <StyledLink to="https://kjw.skyamg.com" target="_blank">
             웹차트
           </StyledLink>
         </li>
