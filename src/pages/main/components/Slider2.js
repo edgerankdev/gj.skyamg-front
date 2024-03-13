@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import { styled } from "styled-components";
 import Slider from "react-slick";
 
-import bgImg1 from "../../../images/main/icsky_building.jpg";
-import bgImg3 from "../../../images/resource/subjects/스카이MRI실.jpeg";
+// import bgImg1 from "../../../images/main/icsky_building.jpg";
+import bgImg1 from "../../../images/main/263A9688.png";
+import bgImg3 from "../../../images/main/263A9597.png";
 // import bgImg2 from "../../../images/resource/images/portfolio_062119.jpg";
 
-import bgImg2 from "../../../images/resource/images/263A9095_편집본.png";
+import bgImg2 from "../../../images/main/263A9726.png";
 
 // import bgImg3 from "../../../images/resource/images/portfolio_080228.jpg";
 import toplogo_w from "../../../images/common/toplogo_w.png";
@@ -87,7 +88,7 @@ function Preview() {
             <div className="slideImg imgThree">
               <div className={isMobile ? "innerText_m" : "innerText"}>
                 <p>
-                  <strong>광주 전남 지역 유일</strong>
+                  광주 전남 최초 <strong>MRI 보유</strong>
                 </p>
                 <img
                   src={toplogo_w}

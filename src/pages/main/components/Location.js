@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import { styled, keyframes } from "styled-components";
 import KakaoMap from "../../../components/KakaoMap";
 // import skyBuilding from "../../../images/resource/images/스카이야경2.jpg";
-import skyBuilding from "../../../images/resource/images/building_night.jpeg";
+// import skyBuilding from "../../../images/resource/images/building_night.jpeg";
+import locationImg from "../../../images/main/263A9688.png";
 
 function Location() {
   const [animate, setAnimate] = useState(false);
@@ -166,7 +167,7 @@ const TextWrapper = styled.div`
     height: 100%;
     background-color: #2963a3;
     color: #fff;
-    background-image: url(${skyBuilding});
+    background-image: url(${locationImg});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -179,7 +180,7 @@ const TextWrapper = styled.div`
 		margin: 0;
 		width: 100%;
 		height: 50%;
-		background-image: url(${skyBuilding});
+		background-image: url(${locationImg});
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
