@@ -19,6 +19,10 @@ function KakaoMap() {
       });
 
       const map = new kakao.maps.Map(container, options);
+
+      // 지도 확대 축소를 제어할 수 있는  줌 컨트롤을 생성합니다
+      const zoomControl = new kakao.maps.ZoomControl();
+      map.addControl(zoomControl, kakao.maps.ControlPosition.BOTTOMRIGHT);
       marker.setMap(map);
 
       map.setZoomable(isZoomable);
@@ -35,10 +39,13 @@ function KakaoMap() {
     <>
       {kakao ? (
         <div
-          style={{ width: "100%", height: "100%", minHeight: "400px" }}
+          style={{ width: "100%", height: "100%" }}
           // onClick={() => setIsZoomable(!isZoomable)}
         >
-          <div id="map" style={{ width: "100%", height: "100%" }}></div>
+          <div
+            id="map"
+            style={{ width: "100%", height: "100%", minHeight: "400px" }}
+          ></div>
         </div>
       ) : (
         <div
