@@ -3,31 +3,17 @@ import { styled } from "styled-components";
 import Slider from "react-slick";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
-import img1 from "../../../images/resource/images/DSC06702.jpg";
-import img2 from "../../../images/resource/images/DSC06706.jpg";
-import img3 from "../../../images/resource/images/DSC06711.jpg";
-import img4 from "../../../images/resource/images/DSC06699.jpg"; // 수술실
-import img5 from "../../../images/resource/images/DSC06764.jpg"; // 진료실
-import img6 from "../../../images/resource/images/DSC06759.jpg"; // 고객공간
-import img7 from "../../../images/resource/images/DSC06756.jpg"; // 고객공간
-import img8 from "../../../images/resource/images/DSC06796.jpg"; // MRI
-import img9 from "../../../images/resource/images/DSC06793.jpg"; // MRI
-import img10 from "../../../images/resource/images/DSC06791.jpg"; // CT
-import img11 from "../../../images/resource/images/DSC06786.jpg"; // CT
-import img12 from "../../../images/resource/images/DSC06784.jpg"; // 수술실
-import img13 from "../../../images/resource/images/DSC06783.jpg"; // 수술실
-import img14 from "../../../images/resource/images/DSC06778.jpg"; // X-ray실
-import img15 from "../../../images/resource/images/DSC06769.jpg"; // 입원실
-import imgOne from "../../../images/resource/images/대기실.jpg";
-import imgTwo from "../../../images/resource/images/스카이입원실.jpeg";
-import imgThree from "../../../images/resource/images/스카이입원실_2.jpeg";
-import imgFour from "../../../images/resource/images/스카이목욕실.jpeg";
-import imgFive from "../../../images/resource/images/스카이방사선실.jpeg";
-import imgSix from "../../../images/resource/images/스카이수술실.jpeg";
-import imgSeven from "../../../images/resource/images/스카이수술실_3.jpeg";
-import imgEight from "../../../images/resource/images/스카이초음파_컬러.jpeg";
-import imgNine from "../../../images/resource/images/스카이MRI실.jpeg";
-import imgTen from "../../../images/resource/images/카운터.jpg";
+import img1 from "../../../images/kj/대기공간.png";
+import img2 from "../../../images/kj/리셉션.png";
+import img3 from "../../../images/kj/수술실.png";
+import img4 from "../../../images/kj/진료실내부.png";
+import img5 from "../../../images/kj/진료실복도.png";
+import img6 from "../../../images/kj/초음파.JPG";
+import img7 from "../../../images/kj/xray.png";
+import img8 from "../../../images/kj/mri_정면.png";
+import img9 from "../../../images/kj/mri_측면.png";
+import img10 from "../../../images/kj/ct_정면.png";
+import img11 from "../../../images/kj/ct_측면.png";
 
 function Preview() {
   const handleClick = (e) => {
@@ -89,38 +75,26 @@ function Preview() {
       <SlideWrapper>
         <div>
           <StyledSlider onChange={handleChange} {...settings}>
-            <div className="slideImg imgOne">
-              <p>고객공간</p>
-            </div>
-            <div className="slideImg img6">
-              <p>고객공간</p>
-            </div>
-            <div className="slideImg img7">
+            <div className="slideImg img1">
               <p>고객공간</p>
             </div>
             <div className="slideImg img2">
-              <p>면회장</p>
+              <p>리셉션</p>
+            </div>
+            <div className="slideImg img3">
+              <p>수술실</p>
+            </div>
+            <div className="slideImg img4">
+              <p>진료실</p>
             </div>
             <div className="slideImg img5">
               <p>진료실</p>
             </div>
-            <div className="slideImg img15">
-              <p>강아지 치료실&입원실</p>
-            </div>
-            <div className="slideImg imgThree">
-              <p>고양이 치료실&입원실</p>
-            </div>
-            <div className="slideImg imgFour">
-              <p>대형견입원실</p>
-            </div>
-            <div className="slideImg img14">
-              <p>방사선실</p>
-            </div>
-            <div className="slideImg img13">
-              <p>수술실</p>
-            </div>
-            <div className="slideImg imgEight">
+            <div className="slideImg img6">
               <p>초음파실</p>
+            </div>
+            <div className="slideImg img7">
+              <p>방사선실</p>
             </div>
             <div className="slideImg img8">
               <p>MRI실</p>
@@ -131,11 +105,8 @@ function Preview() {
             <div className="slideImg img10">
               <p>CT실</p>
             </div>
-            <div className="slideImg imgTen">
-              <p>리셉션</p>
-            </div>
-            <div className="slideImg img3">
-              <p>리셉션</p>
+            <div className="slideImg img11">
+              <p>CT실</p>
             </div>
           </StyledSlider>
         </div>
@@ -371,76 +342,6 @@ const StyledSlider = styled(Slider)`
     }
     .img11 {
       background-image: url(${img11});
-      background-size: cover;
-      background-position: center;
-    }
-    .img12 {
-      background-image: url(${img12});
-      background-size: cover;
-      background-position: center;
-    }
-    .img13 {
-      background-image: url(${img13});
-      background-size: cover;
-      background-position: center;
-    }
-    .img14 {
-      background-image: url(${img14});
-      background-size: cover;
-      background-position: center;
-    }
-    .img15 {
-      background-image: url(${img15});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgOne {
-      background-image: url(${imgOne});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgTwo {
-      background-image: url(${imgTwo});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgThree {
-      background-image: url(${imgThree});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgFour {
-      background-image: url(${imgFour});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgFive {
-      background-image: url(${imgFive});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgSix {
-      background-image: url(${imgSix});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgSeven {
-      background-image: url(${imgSeven});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgEight {
-      background-image: url(${imgEight});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgNine {
-      background-image: url(${imgNine});
-      background-size: cover;
-      background-position: center;
-    }
-    .imgTen {
-      background-image: url(${imgTen});
       background-size: cover;
       background-position: center;
     }

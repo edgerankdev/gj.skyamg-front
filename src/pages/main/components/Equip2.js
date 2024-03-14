@@ -3,8 +3,12 @@ import { useState, useEffect, useRef } from "react";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import bgImg from "../../../images/resource/images/bg_lami2.jpg";
-import stepOne from "../../../images/resource/images/스카이방사선실.jpeg";
-import stepTwo from "../../../images/resource/images/스카이X-ray.jpeg";
+// import stepOne from "../../../images/resource/images/스카이방사선실.jpeg";
+// import stepTwo from "../../../images/resource/images/스카이X-ray.jpeg";
+// import stepThree from "../../../images/resource/images/스카이진료중.jpeg";
+
+import stepOne from "../../../images/kj/mri_측면.png";
+import stepTwo from "../../../images/kj/mri판독.png";
 import stepThree from "../../../images/resource/images/스카이진료중.jpeg";
 
 function Subject2() {
