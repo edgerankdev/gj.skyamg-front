@@ -262,16 +262,17 @@ const StyledSlider = styled(Slider)`
     position: relative;
     z-index: 2;
     width: 70vw;
-    height: 50vh;
+    height: 70vh;
 
-    /* @media screen and (max-width: 1280px) {
-			width: 900px;
-		}
-		@media screen and (max-width: 960px) {
+    @media screen and (max-width: 1290px) {
+      height: 55vh;
+    }
+    /* @media screen and (max-width: 960px) {
 			width: 690px;
 		} */
     @media screen and (max-width: 740px) {
       width: 85vw;
+      height: 40vh;
     }
 
     div {

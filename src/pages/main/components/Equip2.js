@@ -9,7 +9,7 @@ import bgImg from "../../../images/resource/images/bg_lami2.jpg";
 
 import stepOne from "../../../images/kj/mri_측면.png";
 import stepTwo from "../../../images/kj/mri판독.png";
-import stepThree from "../../../images/resource/images/스카이진료중.jpeg";
+import stepThree from "../../../images/kj/처치_센터.png";
 
 function Subject2() {
   const [animate, setAnimate] = useState(false);
