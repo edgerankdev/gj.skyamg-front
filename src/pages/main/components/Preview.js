@@ -123,7 +123,10 @@ const PreviewContainer = styled.section`
   justify-content: center;
   align-items: center;
   position: relative;
-
+  margin-bottom: 20vh;
+  @media screen and (max-width: 740px) {
+    margin-bottom: 0;
+  }
   * {
     margin: 0;
   }

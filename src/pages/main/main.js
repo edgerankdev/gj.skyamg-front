@@ -38,7 +38,7 @@ function Main() {
       <Location />
       <Preview />
 
-      <Notice2 />
+      {/* <Notice2 /> */}
     </>
   );
 }
