@@ -1,6 +1,7 @@
 import { styled, keyframes } from "styled-components";
 import { useState, useEffect, useRef } from "react";
-import mriImg from "../../../images/resource/images/스카이MRI_2.jpeg";
+import mriImg from "../../../images/kj/mri_정면.png";
+// import mriImg from "../../../images/resource/images/스카이MRI_2.jpeg";
 
 function Equip() {
   const [animate, setAnimate] = useState(false);
@@ -148,8 +149,10 @@ const ImgWrapper = styled.div`
     display: none;
   }
   img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    width: auto;
+    height: 100%;
     @media screen and (max-width: 690px) {
       width: auto;
       height: 100%;

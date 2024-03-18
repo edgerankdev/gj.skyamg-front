@@ -14,6 +14,8 @@ import img8 from "../../../images/kj/mri_정면.png";
 import img9 from "../../../images/kj/mri_측면.png";
 import img10 from "../../../images/kj/ct_정면.png";
 import img11 from "../../../images/kj/ct_측면.png";
+import img12 from "../../../images/kj/입원실애기.png";
+import img13 from "../../../images/kj/입원케어.png";
 
 function Preview() {
   const handleClick = (e) => {
@@ -107,6 +109,12 @@ function Preview() {
             </div>
             <div className="slideImg img11">
               <p>CT실</p>
+            </div>
+            <div className="slideImg img12">
+              <p>입원실</p>
+            </div>
+            <div className="slideImg img13">
+              <p>입원실</p>
             </div>
           </StyledSlider>
         </div>
@@ -346,6 +354,16 @@ const StyledSlider = styled(Slider)`
     }
     .img11 {
       background-image: url(${img11});
+      background-size: cover;
+      background-position: center;
+    }
+    .img12 {
+      background-image: url(${img12});
+      background-size: cover;
+      background-position: center;
+    }
+    .img13 {
+      background-image: url(${img13});
       background-size: cover;
       background-position: center;
     }

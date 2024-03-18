@@ -6,20 +6,20 @@ function Footer() {
     <FooterContainer>
       <InfoWrapper>
         <div className="infoOne">
-          <p>병원명: 광주24시스카이동물의료센터</p>
+          <p>병원명: 광주24시스카이동물메디컬센터</p>
           <div className="separator"></div>
-          <p>대표자: 오이세</p>
+          <p>대표자: 백성현</p>
           <div className="separator"></div>
 
-          <p>사업자번호: 140-08-72701</p>
+          <p>사업자번호: 292-62-00397</p>
         </div>
         <div className="infoTwo">
-          <p>T. 032-715-7959</p>
+          <p>T. 062-719-4275</p>
           <div className="separator"></div>
-          <p>광주광역시 남동구 남동대로 799번길 34</p>
+          <p>광주광역시 서구 상무대로 879, 1동 3, 4, 5층(쌍촌동, 두왕빌딩)</p>
         </div>
         <div className="infoThree">
-          <p>Copyright ⓒ 2023.</p>
+          <p>Copyright ⓒ 2024</p>
           <p>SKY Animal Medical Center All Rights Reserved.</p>
         </div>
       </InfoWrapper>

@@ -5,7 +5,8 @@ import vetInfo from "../../config/vetInfo";
 import { styled } from "styled-components";
 import img from "../../images/title/visual_incheon.jpeg";
 import { Typography, Box } from "@mui/material";
-import bgImg from "../../images/resource/images/DSC06723.jpg";
+import bgImg from "../../images/kj/진료실복도.png";
+// import bgImg from "../../images/resource/images/DSC06723.jpg";
 
 function Doctor() {
   const { id } = useParams();

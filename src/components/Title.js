@@ -19,7 +19,7 @@ function Title({ img, title, enTitle }) {
           }}
         />
         <TextDiv>
-          <span>INCHEON SKY ANIMAL MEDICAL CENTER</span>
+          <span>GWANGJU SKY ANIMAL MEDICAL CENTER</span>
           <p className={enTitle ? "spacing title" : "title"}>{title}</p>
           {enTitle && <p className="bottom">{enTitle}</p>}
         </TextDiv>
