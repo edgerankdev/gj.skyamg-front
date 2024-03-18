@@ -22,10 +22,18 @@ function Header({ isScrolledDown }) {
     setIsSubNavOpen(false);
   };
 
+  // 스크롤 이벤트 핸들러
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // 부드러운 스크롤 효과
+    });
+  };
+
   return (
     <StyledHeader isScrolledDown={isScrolledDown}>
       <StyledDiv>
-        <Link to="/">
+        <Link to="/" onClick={scrollToTop}>
           <div>
             <img src={logoImg} alt="logo" />
           </div>
@@ -33,7 +41,9 @@ function Header({ isScrolledDown }) {
       </StyledDiv>
       <StyledUl>
         <li>
-          <StyledLink to="/">SKY 소개</StyledLink>
+          <StyledLink to="/" onClick={scrollToTop}>
+            SKY 소개
+          </StyledLink>
         </li>
         {/* <li>
           <StyledLink to="/two">two</StyledLink>

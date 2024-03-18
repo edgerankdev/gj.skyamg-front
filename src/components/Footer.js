@@ -19,7 +19,7 @@ function Footer() {
           <p>광주광역시 서구 상무대로 879, 1동 3, 4, 5층(쌍촌동, 두왕빌딩)</p>
         </div>
         <div className="infoThree">
-          <p>Copyright ⓒ 2024</p>
+          <p>Copyright ⓒ 2024.</p>
           <p>SKY Animal Medical Center All Rights Reserved.</p>
         </div>
       </InfoWrapper>
