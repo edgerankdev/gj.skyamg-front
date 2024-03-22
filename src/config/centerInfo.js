@@ -10,32 +10,37 @@ import titleImg5 from "../images/resource/subjects/gsimg_gs.jpg";
 // import sec2img from "../images/resource/subjects/스카이MRI실.jpeg";
 
 import sec3img1 from "../images/resource/subjects/section3_img01.png";
+import sec3img11 from "../images/kj/mri판독.png";
 // import sec3img2 from "../images/resource/subjects/section3_img02.png";
 // import sec3img3 from "../images/resource/subjects/section3_img03.png";
 import sec3img333 from "../images/resource/subjects/section3_img03.png";
-import sec3img21 from "../images/resource/images/DSC06699.jpg"; // 수술실
+import sec3img21 from "../images/resource/images/DSC06699.jpg";
 import sec3img22 from "../images/resource/subjects/mgimg_endocrine.jpg";
 import sec3img31 from "../images/resource/subjects/sec3/3-1.jpg";
-import sec3img32 from "../images/resource/subjects/sec3/3-2.jpg";
+// import sec3img32 from "../images/resource/subjects/sec3/3-2.jpg";
+import sec3img32 from "../images/kj/입원실애기.png";
 // import sec3img33 from "../images/resource/subjects/sec3/3-3.jpg";
-import sec3img41 from "../images/resource/subjects/sec3/4-1.png";
-import sec3img42 from "../images/resource/subjects/sec3/4-2.jpg";
-import sec3img43 from "../images/resource/subjects/sec3/4-3.png";
+import sec3img41 from "../images/kj/DSC06900.JPG";
+// import sec3img42 from "../images/resource/subjects/sec3/4-2.jpg";
+import sec3img42 from "../images/kj/차트작성.png";
+import sec3img43 from "../images/kj/항암후드.png";
 import sec3img51 from "../images/resource/subjects/sec3/5-1.jpg";
-import sec3img52 from "../images/resource/subjects/sec3/5-2.jpg";
-import sec3img53 from "../images/resource/subjects/sec3/5-3.jpg";
+// import sec3img52 from "../images/resource/subjects/sec3/5-2.jpg";
+import sec3img52 from "../images/kj/입원실애기.png";
+import sec3img53 from "../images/kj/대화.png";
 
-import sec3img2 from "../images/resource/images/263A9154.png";
-import sec3img3 from "../images/resource/images/263A9166.png";
-import sec3img33 from "../images/resource/images/263A9154.png";
-
+import sec3img2 from "../images/kj/배경제거.png";
+// import sec3img3 from "../images/resource/images/263A9166.png";
+import sec3img3 from "../images/kj/대화.png";
+// import sec3img33 from "../images/resource/images/263A9154.png";
+import sec3img33 from "../images/kj/DSC06899.JPG";
 import equip1 from "../images/resource/subjects/equip/image1.png";
 import equip2 from "../images/resource/subjects/equip/image2.png";
 import equip3 from "../images/resource/subjects/equip/image3.png";
 import equip4 from "../images/resource/subjects/equip/image4.png";
 import equip5 from "../images/resource/subjects/equip/image5.png";
 import equip6 from "../images/resource/subjects/equip/image6.png";
-import equip7 from "../images/resource/subjects/equip/image7.png";
+import equip7 from "../images/resource/subjects/equip/항암후드.jpeg";
 
 import surgery1 from "../images/resource/subjects/surgery_01.jpeg";
 
@@ -44,21 +49,23 @@ const centerInfo = [
     id: 1,
     primaryImg: img101,
     titleImg: titleImg1,
-    vetMemberIdx: [6],
+    vetMemberIdx: [],
     title: "영상진단센터",
     enTitle: "MRI & CT Center",
     subTitle: `대학병원급 최첨단 진단 장비
 마취과 담당의 근무
 지역병원 MRI, CT 의뢰`,
-    sec2: {
-      title1: "모든 진단의 시작",
-      title2: "SKY 영상진단센터",
-      description: `영상진단센터에서는 다양한 첨단의학검사장비를 이용하여 질환을 정확히 진단하는 것을 목표로 하고 있습니다. 안전한 검사를 위한 전용 마취 장비 및 담당 직원이 상주하고 있으며, 검사와 판독은 영상의학 전공자에 의해 이루어집니다.
+    sec2: [
+      {
+        title1: "모든 진단의 시작",
+        title2: "SKY 영상진단센터",
+        description: `영상진단센터에서는 다양한 첨단의학검사장비를 이용하여 질환을 정확히 진단하는 것을 목표로 하고 있습니다. 안전한 검사를 위한 전용 마취 장비 및 담당 직원이 상주하고 있으며, 검사와 판독은 영상의학 전공자에 의해 이루어집니다.
       `,
-    },
+      },
+    ],
     sec3: [
       {
-        img: sec3img1,
+        img: sec3img11,
         title: "영상의학전공의 및 마취 전문 인력",
         enTitle: "",
         content: `반려동물은 품종, 나이, 기저질환 등의 차이로 인해 환자 별 마취 안정성의 편차가 큰 편입니다. 영상의학전공의의 관리하, 마취 전문 인력이 상주하고 있어 검사 과정에서의 마취 안정성을 확보하고 있습니다.`,
@@ -97,50 +104,6 @@ const centerInfo = [
       },
     ],
     // surgery: [],
-    surgery: [
-      {
-        img: surgery1,
-        type: 1,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-      {
-        img: surgery1,
-        type: 2,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-    ],
     pride: {
       title: "치료의 시작은 정확한 진단입니다.",
       description: `반려동물의 CT, MRI 검사는 사람과 달리 마취를 필요로 하는 고난이도 전문 분야입니다. 마취의 안정성을 위하여 마취 전 면밀한 검사가 필요하며, 마취 중에도 집중 관찰을 요합니다. 검사 후에도 정확한 판독을 통해 병변을 확인할 수 있어야 합니다.
@@ -152,18 +115,20 @@ const centerInfo = [
     id: 2,
     primaryImg: img101,
     titleImg: titleImg2,
-    vetMemberIdx: [3, 14],
+    vetMemberIdx: [],
     title: "정형신경센터",
     enTitle: "Orthopedic & Neurological Surgery center",
-    subTitle: `외과학전공의 및 수술 전문팀
-철저한 수술 전 검사
-한방치료 병행`,
-    sec2: {
-      title1: "수술 치료의 정점",
-      title2: "SKY 정형신경센터",
-      description: `정형신경센터에서는 안전한 수술 진행과 만족스러운 예후 확보를 목표로 하고 있습니다. 수술 장비의 멸균 처리와 안전한 마취를 위하여 담당 직원이 상주하고 있으며 모든 수술 과정은 외과학 전공자의 집도로 이루어집니다.
+    subTitle: `경험 많은 의료진의 수술집도
+최신의 수술장비 및 마취장비 사용
+최신의 멸균 시스템 적용`,
+    sec2: [
+      {
+        title1: "수술 치료의 정점",
+        title2: "SKY 정형신경센터",
+        description: `정형신경센터는 뇌 질환, 척수 질환 등 신경계 질환에 대한 외과적 치료를 병행하는 진료과 입니다. 강아지에서 호발하는 후두골이형성(COMS, syringogydromyelia), 뇌수두증, 종양 및 디스크 질환(IVDD, Intervertebral disc disease)에 대한 보존적 치료 및 수술적 치료를 실시하고 있으며, 전문가의 정확한 신경계 검사, 질환 부위의 국소화 및 첨단 영상의학 장비를 통한 수술 부위에 대한 확정 진단을 통해 술 후 회복기간을 단축 시키고, 최상의 술 후 경과를 낼 수 있도록 영상의학과와 협진이 이루어지고 있습니다.
       `,
-    },
+      },
+    ],
     sec3: [
       {
         img: sec3img1,
@@ -179,9 +144,9 @@ const centerInfo = [
       },
       {
         img: sec3img33,
-        title: "한방치료 병행",
+        title: "체계적인 재활치료 병행",
         enTitle: "",
-        content: `통증관리 및 재활에 있어 한방치료센터와의 협진을 통해 술 후 안전하고 빠른 회복에 집중하고 있습니다.`,
+        content: `수술 후 단계별로 체계적인 재활치료를 진행하며 레이저, NMES 등 다양한 재활장비를 이용한 재활치료를 진행하고 있습니다.`,
       },
     ],
     equip: [
@@ -199,50 +164,6 @@ const centerInfo = [
       },
     ],
     // surgery: [],
-    surgery: [
-      {
-        img: surgery1,
-        type: 1,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-      {
-        img: surgery1,
-        type: 2,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-    ],
     pride: {
       title: "정형, 신경외과 수술은 전문 의료 영역입니다.",
       description: `슬개골 탈구, 십자인대 단열, 디스크 탈출증과 같은 정형, 신경외과 질환은 전문적인 술기와 함께 그에 맞는 장비를 필요로 합니다. 주변 조직의 손상 및 출혈을 최소화할 수 있어야 수술 이후의 회복을 기대할 수 있습니다.
@@ -254,18 +175,28 @@ const centerInfo = [
     id: 3,
     primaryImg: img101,
     titleImg: titleImg3,
-    vetMemberIdx: [5, 2],
+    vetMemberIdx: [],
     title: "중증내과센터",
     enTitle: "Internal Medicine Center",
-    subTitle: `심장, 신장질환 특화
-고양이 의료시설 분리
-한방치료 병행`,
-    sec2: {
-      title1: "행복한 노년기를 위해",
-      title2: "SKY 중증내과센터",
-      description: `중증내과센터에서는 노령에 접어든 환자의 기대 수명 연장 및 삶의 질 개선을 목표로 하고 있습니다. 정확한 진단과 함께 환자 상태를 다방면으로 고려한 내복약 처방이 이루어지며 내과학 전공자의 판단 하에 치료 및 관리가 이루어집니다.
+    subTitle: `24시간 icu 입원관리를 통한 중증환자집중치료
+최신의 바이탈 모니터링 기계 사용한 환자상태 체크
+경험많은 의료진의 협업을 통한 치료`,
+    sec2: [
+      {
+        title1: "행복한 노년기를 위해",
+        title2: "SKY 중증내과센터(심장)",
+        description: `심장 내과에서는 심장 및 혈관 질환의 환자에 있어서 혈액검사, 방사선 검사, 심초음파 검사 등의 진단방법을 통해 개, 고양이에서 발생하는 선천적/후천적 심장질환 등에 대한 감별 진단 및 치료를 실시하고 있습니다. 
+개에서 발생하는 노령성 판막질환, 고양이에서 발생하는 비대성 심근 병증 등에 대한 영상진단의학 전공자의 정밀 심장 초음파 검사 및 내과 전공자의 단계에 따른 최적의 치료 방향을 설정을 통해 심장 질환 환자의 기대 수명 증가 및 삶의 질 향상을 위한 최적의 치료를 실시하고 있습니다.
       `,
-    },
+      },
+      {
+        title1: "행복한 노년기를 위해",
+        title2: "SKY 중증내과센터(신경계)",
+        description: `신경계 내과에서는 뇌와 척수를 포함하는 중추 신경계 및 뇌신경, 말초신경 장애 등의 신경계에 발생하는 염증성, 종양성 질병에 대한 진단 및 치료를 실시하고 있습니다. 
+대표적인 질환으로 강아지에서 경련 증상 또는 마비 증상을 유발하는 선천적 뇌질환, 염증성 뇌질환(뇌수막염), 종양성 뇌질환에 대한 감별 진단 및 약물 처방을 통한 경련 조절 등을 실시하고 있으며, 종양성 뇌질환에 대한 내과적 항암치료 등을 실시하고 있습니다. 
+이외에도 전신의 떨림 증상을 발생 시키는 말초 신경에서 발생하는 특발성 진전, 말초 신경염 등에 대한 내과적 약물 처방을 통한 진단 및 치료를 실시하고 있습니다.`,
+      },
+    ],
     sec3: [
       {
         img: sec3img31,
@@ -275,15 +206,15 @@ const centerInfo = [
       },
       {
         img: sec3img32,
-        title: "고양이 의료시설 분리",
+        title: "입원환자 모니터링",
         enTitle: "",
-        content: `고양이 진료실 및 입원실을 별도로 두어 통원 및 입원 치료 과정에서의 스트레스 최소화에 힘쓰고 있습니다.`,
+        content: `중증질환 입원환자 상태를 즉각적으로 파악하고 대처하기 위해 첨단 모니터링 장비를 이용해 환자 상태를 파악하고 있습니다.`,
       },
       {
         img: sec3img33,
-        title: "한방치료 병행",
+        title: "영상, 외과와 협진을 통한 진료",
         enTitle: "",
-        content: `중증 내과환자의 치료 과정을 양한방의 협진을 통해 다각적인 관점으로 바라보려고 노력하고 있습니다. 수의한방침치료인증과정을 수료한 다수의 수의사가 내과질환 치료에 함께 임하고 있습니다.`,
+        content: `정확한 진단을 위해 영상과 협진, 수술적 교정이 필요한 환자들은 외과와의 협진을 통해 최선의 치료를 받을 수 있도록 진행하고 있습니다.`,
       },
     ],
     equip: [
@@ -295,50 +226,6 @@ const centerInfo = [
       },
     ],
     // surgery: [],
-    surgery: [
-      {
-        img: surgery1,
-        type: 1,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-      {
-        img: surgery1,
-        type: 2,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-    ],
     pride: {
       title: "중증, 노령성 내과 질환은 장기 전입니다.",
       description: `반려 동물의 내과 질환 치료는 임상 증상이 확인된 이후로 내원하는 경우가 많다는 특성 상, 진단 시점에서 질환이 많이 진행되어 있는 경우가 많습니다. 따라서 단기에 치료하기 어렵기 때문에 장기적인 관점에서 환자의 연령, 기왕력, 식이 등을 전반적으로 고려하면서 관리해야 하는 장거리 달리기와 같습니다.
@@ -352,91 +239,49 @@ const centerInfo = [
     titleImg: titleImg4,
     vetMemberIdx: [1, 5, 8],
     title: "종양항암센터",
-    enTitle: "Traditional Chinese Medicine Center",
+    enTitle: "Oncology Cancer Center",
     subTitle: `수의한방침치료인증과정 수료
 반복적인 세션 치료
 동물전용 한방의료기구 사용`,
-    sec2: {
-      title1: "비침습적, 하지만 최선의 효과",
-      title2: "SKY 종양항암센터",
-      description: `종양항암센터에서는 양방 의존적인 고전 방법에서 벗어나 치료 방향의 다양화를 목표로 하고 있습니다. 침습적인 치료가 어렵거나 양방 치료를 통한 예후가 좋지 못한 환자들에게 수의한방침치료인증과정을 수료한 수의사에 의한 한방 및 재활치료가 이루어집니다.
-      `,
-    },
+    sec2: [
+      {
+        title1: "종양환자의 삶의 질 향상을 위해",
+        title2: "SKY 종양항암센터",
+        description: `종양항암센터에서는 동물에서 발생하는 다양한 종류의 종양에 대한 맞춤치료를 경험많은 전문수의사가 진행하고 있습니다.
+
+암을 완치하지 못하더라도 생존기간을 늘리고 삶의질을 개선하기 위해 항암치료는 꼭 필요합니다.
+`,
+      },
+    ],
     sec3: [
       {
         img: sec3img41,
-        title: "수의한방침치료인증과정 수료",
-        content: `세계적인 동물 한방 및 재활 전문 교육기관인 Chi university에서 공인한 인증과정을 수료한 수의사들의 시침이 이루어집니다.`,
+        title: "다양한 종류의 항암치료 약물 구비",
+        content: `국내/국외 다양한 희귀항암 약물을 구비하고 치료에 이용합니다.`,
       },
       {
-        img: sec3img2,
-        title: "반복적인 세션 치료",
-        content: `여러 번의 시침이 이루어질 때 효과가 더욱 극대화되는 한방치료의 특성을 고려하여, 일회성 시술로 끝내지 않고 환자 별로 필요한 혈자리 및 침법을 선택하여 주기적인 반복 치료를 실시하고 있습니다.`,
+        img: sec3img42,
+        title: "환자상태와 종양 종류에 따른 맞춤 항암프로토콜 적용",
+        content: `내과 전공수의사가 환자의 상태에 맞춤 프로토콜 작성 후 환자 상태 따라 적용하고 있습니다.`,
       },
       {
-        img: sec3img3,
-        title: "동물전용 한방의료기구 사용",
-        content: `인의용 제품을 겸용하지 않고, 동물전용으로 개발된 전침기, 침틀, 재활기구를 사용하여 반려동물에게 최적화된 한방치료를 실시합니다.`,
+        img: sec3img43,
+        title: "환자와 의료진의 안전을 위한 항암후드 및 파실등의 장비",
+        content: `치료받는 환자와 의료진의 안전을 모두 고려한 항암장비 및 안전장비 등을 이용하여 안전한 항암치료를 추구 합니다.`,
       },
     ],
     equip: [
       {
         img: equip7,
-        name: "DIOWAVE 10&15WATT LASER SYSTEM",
+        name: "FUME HOOD",
         description:
-          "근육층에 조사하는 2가지 파장 외에 피부층 및 심부 조직까지 적용할 수 있는 2가지 파장이 추가되어 있는 레이저 재활 치료기입니다. 수술 후 염증 및 통증 관리, 피부 질환, 염증성 질환 등에 폭넓게 사용할 수 있습니다.",
+          "주사제를 뽑을 때 압력 차로 인한 약물의 누출과 주삿바늘에 남을 수 있는 잔량의 약물이 공기 중으로 누출되는 것을 막기 위해 고안된 특수장치로, 사용자 및 환결을 안전하게 보호하기 위해 국제 규격에 따른 설계, 제작, 자체 검증이 완료된 안전장치입니다.",
       },
     ],
     // surgery: [],
-    surgery: [
-      {
-        img: surgery1,
-        type: 1,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-      {
-        img: surgery1,
-        type: 2,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-    ],
     pride: {
-      title: "한방 치료는 스스로의 회복력을 일깨우는 치료입니다.",
-      description: `한방 침 치료는 통증 관리, 소화기 증상 완화, 만성 질환의 증상 개선 등에 탁월한 효과가 있습니다. 건침, 약침, 전침, 뜸을 사용하는 침법은 한방 치료 단독으로도 충분한 임상 증상 개선을 이룰 수 있으며 양방과 병행 시 효과가 배가 됩니다.
-      
-광주 SKY 동물메디컬센터에서는 동물침치료인증교육 수료 수의사들의 주관 하의 양 한방 병용의 효과 높은 치료를 경험해보실 수 있습니다. 치료의 새 방향을 제시하는, 광주 SKY 동물메디컬센터입니다.`,
+      title: "반려 동물의 항암 치료는 전략적인 장기적 치료로 이루어집니다.",
+      description: `종양함암센터에서는 종양 치료의 핵심 원칙인 종양의 재발 및 전이 예방을 위한 전략적 치료를 제공합니다. 수술 후의 치료 및 종양 관리, 수술이 어려운 환자들을 위한 종양 호스피스 관리 등을 진행하며, 방사선 치료를 제외한 다양한 항암 치료를 통해 환자들의 삶의 질을 향상시키고 있습니다. 광주 SKY 동물메디컬센터는 항암 치료를 위한 최적의 선택지입니다.`,
     },
   },
   {
@@ -449,12 +294,14 @@ const centerInfo = [
     subTitle: `응급의학전공의 상주
 전 입원장의 ICU화
 외,내과와의 긴밀한 협진`,
-    sec2: {
-      title1: "생사의 위기, 마지막 도전",
-      title2: "SKY 응급의학센터",
-      description: `응급의학센터에서는 일반적인 야간 진료만이 이루어지는 것이 아니라 주간 진료시간에도 응급의학 전공 수의사가 상주함으로서 위급한 순간에 직면한 환자에게 신속한 의료서비스를 제공하고 있습니다.
+    sec2: [
+      {
+        title1: "생사의 위기, 마지막 도전",
+        title2: "SKY 응급의학센터",
+        description: `응급의학센터에서는 일반적인 야간 진료만이 이루어지는 것이 아니라 주간 진료시간에도 응급의학 전공 수의사가 상주함으로서 위급한 순간에 직면한 환자에게 신속한 의료서비스를 제공하고 있습니다.
       `,
-    },
+      },
+    ],
     sec3: [
       {
         img: sec3img1,
@@ -469,7 +316,7 @@ const centerInfo = [
         content: `호흡이 불안정한 응급환자들의 관리를 위해 모든 입원장은 독립적으로 고압산소공급이 가능하도록 설계되어 있습니다.`,
       },
       {
-        img: sec3img333,
+        img: sec3img53,
         title: "외,내과와의 긴밀한 협진",
         enTitle: "",
         content: `응급상황을 벗어난 중증환자가 신속하게 다음 단계로 넘어갈 수 있도록 모든 치료 과정에 외과, 내과의와의 협진이 이루어집니다.`,
@@ -477,50 +324,6 @@ const centerInfo = [
     ],
     equip: [],
     // surgery: [],
-    surgery: [
-      {
-        img: surgery1,
-        type: 1,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-      {
-        img: surgery1,
-        type: 2,
-        content: [
-          {
-            title: "간문맥 단락증(PSS)",
-            description:
-              "비정상적으로 생긴 혈관 때문에 혈액이 간을 통과하지 않아 생기는 질환입니다. 간문맥 단락증에 걸리면 간의 기능 저하, 간 발달 장애가 되고 2차적으로 간성뇌증 등의 증상이 생길 수 있습니다.",
-          },
-          {
-            title: "치료",
-            description:
-              "비정상 혈관에 ameroid ring / cellophane bandiing을 통하여 서서히 혈관이 차단되도록 수술을 통하여 치료합니다. 암모니아 수치를 낮추기 위하여 약 복용을 하며 경과를 관찰할 수 있습니다.",
-          },
-          {
-            title: "예후",
-            description:
-              "수술 후 예후는 좋은편이나 고난이도 수술에 속하므로 숙련된 전문의의 전문 진료가 필요합니다. 수술 이후 정상적으로 간 기능이 회복되기 위해서는 약 2개월정도의 시간이 필요합니다.",
-          },
-        ],
-      },
-    ],
     pride: {
       title: "야간, 휴일 진료만이 응급의료센터의 전부가 아닙니다.",
       description: `어린 연령이지만 선천적 질환을 가지고 있거나, 노령성 내과 질환을 가지고 있는 환자들의 경우, 응급 상황은 언제든지 발생할 수 있습니다. 생명을 위협받는 절체절명의 순간에서는 빠른 판단과 신속한 대응이 중요합니다.

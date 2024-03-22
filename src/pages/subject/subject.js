@@ -22,7 +22,7 @@ import MemberList2 from "./components/MemberList2";
 import bg1 from "./bg-image/sec1title.jpg";
 import bg2 from "../../images/resource/subjects/gsimg_tumor.jpg";
 import bg3 from "../../images/resource/subjects/radioimg_2.jpg";
-import bg4 from "../../images/resource/subjects/reimg_3.jpg";
+import bg4 from "../../images/resource/subjects/항암배너.png";
 import bg5 from "../../images/resource/images/전문진료과목_bg.jpeg";
 // import prideImg from "./bg-image/pride_banner.jpeg";
 // import prideImg from "./bg-image/pride임시.png";
@@ -58,7 +58,7 @@ function Section1Component({ img, title, content }) {
   );
 }
 
-function Section2Component({ id, info }) {
+function Section2Component({ id, info, infoIdx }) {
   const [isAnimated, setIsAnimated] = useState(false);
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -74,7 +74,7 @@ function Section2Component({ id, info }) {
     <Section2 id={id}>
       <Box>
         <Box>
-          <InnerBox ref={ref}>
+          <InnerBox ref={ref} id={infoIdx}>
             <Typography className={`${isAnimated ? "animate" : ""}`}>
               {info.title1},
               <Bold className={`${isAnimated ? "animate" : ""}`}>
@@ -189,8 +189,10 @@ function Subject() {
       />
       <CssBaseline />
       <Container>
-        <MemberList2 memberIdx={info.vetMemberIdx} subject={info.title} />
-        <Section2Component id={info.id} info={info.sec2} />
+        {/* <MemberList2 memberIdx={info.vetMemberIdx} subject={info.title} /> */}
+        {info.sec2.map((sec2, idx) => (
+          <Section2Component id={info.id} info={sec2} infoIdx={idx} />
+        ))}
         <Section3>
           <Typography className="section-sub">
             SPECIAL SKY MEDICAL CENTER
@@ -349,13 +351,13 @@ const Section2 = styled(Section1)`
     }};
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100% calc(100vw * (210 / 390));
+    background-size: auto calc(100vw * (210 / 390));
 
     @media screen and (max-width: 768px) {
       && {
         height: calc(100vw * (580 / 390));
         background-position: center bottom;
-        background-size: 100% calc(100vw * (210 / 390));
+        background-size: auto calc(100vw * (210 / 390));
       }
     }
   }
@@ -741,11 +743,15 @@ const InnerBox = styled(Box)`
     width: calc(100vw * (540 / 1580));
     height: calc(100vw * (490 / 1580));
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     gap: calc(100vw * (30 / 1580));
     padding: calc(100vw * (50 / 1580));
     margin-left: calc(100vw * (50 / 1580));
+    margin-left: ${(props) =>
+      props.id % 2 === 0
+        ? "calc(100vw * (50 / 1580))"
+        : "calc(100vw * (960 / 1580))"};
     font-size: 18px;
     color: #fff;
     line-height: 1.44;
@@ -769,6 +775,7 @@ const InnerBox = styled(Box)`
       transition: opacity 0.5s, transform 0.5s;
       opacity: 0;
       transform: translateY(100px);
+      white-space: pre-wrap;
 
       &.animate {
         opacity: 1;
