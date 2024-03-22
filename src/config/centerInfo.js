@@ -4,7 +4,7 @@ import img101 from "../images/resource/subjects/mgimg_heart.jpg";
 import img1 from "../images/title/visual_mri.jpg";
 import titleImg1 from "../images/resource/images/스카이MRI실.jpeg";
 import titleImg2 from "../images/resource/subjects/radioimg_1.jpg";
-import titleImg3 from "../images/resource/subjects/gsimg_gs.jpg";
+import titleImg3 from "../images/resource/subjects/DSC06707.jpg";
 import titleImg4 from "../images/resource/subjects/DSC06707.jpg";
 import titleImg5 from "../images/resource/subjects/gsimg_gs.jpg";
 // import sec2img from "../images/resource/subjects/스카이MRI실.jpeg";
@@ -184,14 +184,14 @@ const centerInfo = [
     sec2: [
       {
         title1: "행복한 노년기를 위해",
-        title2: "SKY 중증내과센터(심장)",
+        title2: "SKY 중증 심장 내과센터",
         description: `심장 내과에서는 심장 및 혈관 질환의 환자에 있어서 혈액검사, 방사선 검사, 심초음파 검사 등의 진단방법을 통해 개, 고양이에서 발생하는 선천적/후천적 심장질환 등에 대한 감별 진단 및 치료를 실시하고 있습니다. 
 개에서 발생하는 노령성 판막질환, 고양이에서 발생하는 비대성 심근 병증 등에 대한 영상진단의학 전공자의 정밀 심장 초음파 검사 및 내과 전공자의 단계에 따른 최적의 치료 방향을 설정을 통해 심장 질환 환자의 기대 수명 증가 및 삶의 질 향상을 위한 최적의 치료를 실시하고 있습니다.
       `,
       },
       {
         title1: "행복한 노년기를 위해",
-        title2: "SKY 중증내과센터(신경계)",
+        title2: "SKY 중증 신경계 내과센터",
         description: `신경계 내과에서는 뇌와 척수를 포함하는 중추 신경계 및 뇌신경, 말초신경 장애 등의 신경계에 발생하는 염증성, 종양성 질병에 대한 진단 및 치료를 실시하고 있습니다. 
 대표적인 질환으로 강아지에서 경련 증상 또는 마비 증상을 유발하는 선천적 뇌질환, 염증성 뇌질환(뇌수막염), 종양성 뇌질환에 대한 감별 진단 및 약물 처방을 통한 경련 조절 등을 실시하고 있으며, 종양성 뇌질환에 대한 내과적 항암치료 등을 실시하고 있습니다. 
 이외에도 전신의 떨림 증상을 발생 시키는 말초 신경에서 발생하는 특발성 진전, 말초 신경염 등에 대한 내과적 약물 처방을 통한 진단 및 치료를 실시하고 있습니다.`,

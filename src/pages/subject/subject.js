@@ -21,9 +21,10 @@ import MemberList2 from "./components/MemberList2";
 // import ExtraContentTable from "./components/ExtraContentTable";
 import bg1 from "./bg-image/sec1title.jpg";
 import bg2 from "../../images/resource/subjects/gsimg_tumor.jpg";
-import bg3 from "../../images/resource/subjects/radioimg_2.jpg";
+import bg3 from "../../images/kj/청진.png";
 import bg4 from "../../images/resource/subjects/항암배너.png";
 import bg5 from "../../images/resource/images/전문진료과목_bg.jpeg";
+import bg6 from "../../images/kj/신경계배너.png";
 // import prideImg from "./bg-image/pride_banner.jpeg";
 // import prideImg from "./bg-image/pride임시.png";
 import prideImg from "../../images/resource/images/전문진료과목_bg.jpeg";
@@ -71,7 +72,7 @@ function Section2Component({ id, info, infoIdx }) {
   }, [inView]);
 
   return (
-    <Section2 id={id}>
+    <Section2 id={id} infoIdx={infoIdx}>
       <Box>
         <Box>
           <InnerBox ref={ref} id={infoIdx}>
@@ -327,7 +328,7 @@ const Section2 = styled(Section1)`
     height: calc(100vw * (550 / 1580));
     background: ${(props) => {
       let backgroundImage;
-      console.log(props.id, backgroundImage);
+      console.log(props, backgroundImage);
       switch (props.id) {
         case 1:
           backgroundImage = `url(${bg1})`;
@@ -336,7 +337,8 @@ const Section2 = styled(Section1)`
           backgroundImage = `url(${bg2})`;
           break;
         case 3:
-          backgroundImage = `url(${bg3})`;
+          if (props.infoIdx === 0) backgroundImage = `url(${bg3})`;
+          else backgroundImage = `url(${bg6})`;
           break;
         case 4:
           backgroundImage = `url(${bg4})`;
