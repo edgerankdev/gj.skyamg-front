@@ -29,7 +29,7 @@ import sec3img51 from "../images/resource/subjects/sec3/5-1.jpg";
 import sec3img52 from "../images/kj/입원실애기.png";
 import sec3img53 from "../images/kj/대화.png";
 
-import sec3img2 from "../images/kj/배경제거.png";
+import sec3img2 from "../images/kj/마취장비.png";
 // import sec3img3 from "../images/resource/images/263A9166.png";
 import sec3img3 from "../images/kj/대화.png";
 // import sec3img33 from "../images/resource/images/263A9154.png";
