@@ -10,6 +10,7 @@ import DoctorModal from "../../doctor/components/DoctorModal";
 import { Typography, Box, Button, Grid, Chip } from "@mui/material";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { scrollToComponent } from "../../../scrollToComponent";
+import noImg from "../../../images/vet/no-img.png";
 
 export function MemberItem({ visibleVetInfo }) {
   const navigate = useNavigate();
@@ -41,7 +42,7 @@ export function MemberItem({ visibleVetInfo }) {
               }}
             >
               <ImgBox>
-                <img alt={vet.name} src={vet.img} />
+                <img alt={vet.name} src={vet.img ? vet.img : noImg} />
                 <MoreButton className="button-container" variant="contained">
                   자세히 보기
                   <ChevronRightIcon />

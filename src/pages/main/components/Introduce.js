@@ -3,7 +3,7 @@ import { styled, keyframes } from "styled-components";
 import profileImg2 from "../../../images/main/doc_moonjongsun_desc2.png";
 import univLogo from "../../../images/resource/images/충남대로고.png";
 import vetInfo from "../../../config/vetInfo";
-import profileImg from "../../../images/vet/문종선.png";
+import profileImg from "../../../images/vet/백성현.png";
 
 function Introduce() {
   const [animate, setAnimate] = useState(false);

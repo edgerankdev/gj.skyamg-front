@@ -1,32 +1,42 @@
-import vet1 from "../images/vet2/문종선.png";
-import vet2 from "../images/vet2/정다슬.png";
-import vet3 from "../images/vet2/김도희.png";
-import vet4 from "../images/vet2/최동준.png";
-import vet5 from "../images/vet2/박설기.png";
-import vet6 from "../images/vet2/박주향.png";
-import vet7 from "../images/vet2/최유진.png";
-import vet8 from "../images/vet2/정태규.png";
-import vet9 from "../images/vet2/윤기홍.png";
-import vet10 from "../images/vet2/이선백.png";
-import vet11 from "../images/vet2/서승원.png";
-import vet12 from "../images/vet2/송재성.png";
-import vet13 from "../images/vet2/박기종.png";
-import vet14 from "../images/vet2/이한중.png";
+import vet1 from "../images/vet2/백성현.png";
+import vet2 from "../images/vet2/김보미.png";
+import vet3 from "../images/vet2/강아란.png";
+// import vet4 from "../images/vet/no-img.png";
+import vet5 from "../images/vet2/윤종현.png";
+import vet6 from "../images/vet2/최예슬.png";
+import vet7 from "../images/vet2/이은지.png";
+import vet8 from "../images/vet2/설상우.png";
+import vet9 from "../images/vet2/민경대.png";
+import vet10 from "../images/vet2/이가은.png";
+import vet11 from "../images/vet2/김은호.png";
+import vet12 from "../images/vet2/안종무.png";
+import vet13 from "../images/vet2/윤영호.png";
+import vet14 from "../images/vet2/김범준.png";
+import vet15 from "../images/vet2/심예윤.png";
+import vet16 from "../images/vet2/이영주.png";
+import vet17 from "../images/vet2/최민영.png";
+import vet18 from "../images/vet2/윤승현.png";
+import vet19 from "../images/vet2/이송하.png";
 
-import tvet1 from "../images/vet/문종선.png";
-import tvet2 from "../images/vet/정다슬.png";
-import tvet3 from "../images/vet/김도희.png";
-import tvet4 from "../images/vet/최동준.png";
-import tvet5 from "../images/vet/박설기.png";
-import tvet6 from "../images/vet/박주향.png";
-import tvet7 from "../images/vet/최유진.png";
-import tvet8 from "../images/vet/정태규.png";
-import tvet9 from "../images/vet/윤기홍.png";
-import tvet10 from "../images/vet/이선백.png";
-import tvet11 from "../images/vet/서승원.png";
-import tvet12 from "../images/vet/송재성.png";
-import tvet13 from "../images/vet/박기종.png";
-import tvet14 from "../images/vet/이한중.png";
+import tvet1 from "../images/vet/백성현.png";
+import tvet2 from "../images/vet/김보미.png";
+import tvet3 from "../images/vet/강아란.png";
+// import tvet4 from "../images/vet/no-img.png";
+import tvet5 from "../images/vet/윤종현.png";
+import tvet6 from "../images/vet/최예슬.png";
+import tvet7 from "../images/vet/이은지.png";
+import tvet8 from "../images/vet/설상우.png";
+import tvet9 from "../images/vet/민경대.png";
+import tvet10 from "../images/vet/이가은.png";
+import tvet11 from "../images/vet/김은호.png";
+import tvet12 from "../images/vet/안종무.png";
+import tvet13 from "../images/vet/윤영호.png";
+import tvet14 from "../images/vet/김범준.png";
+import tvet15 from "../images/vet/심예윤.png";
+import tvet16 from "../images/vet/이영주.png";
+import tvet17 from "../images/vet/최민영.png";
+import tvet18 from "../images/vet/윤승현.png";
+import tvet19 from "../images/vet/이송하.png";
 
 const vetInfo = [
   {
@@ -113,8 +123,8 @@ const vetInfo = [
     id: 4,
     position: "외과과장",
     name: "허성현",
-    img: vet4,
-    timg: tvet4,
+    img: null,
+    timg: null,
     title: "건국대학교 수의외과학 석사",
     greetings:
       "근거 중심의 정확한 지식을 바탕으로 진정성 있는 수의사가 되도록 최선을 다하겠습니다.",
@@ -322,8 +332,8 @@ const vetInfo = [
     id: 15,
     position: "진료수의사",
     name: "심예윤",
-    img: vet14,
-    timg: tvet14,
+    img: vet15,
+    timg: tvet15,
     title: "전남대학교 수의과대학 졸업",
     greetings:
       "사랑과 이해를 바탕으로 환자와 보호자님을 돌보는 수의사로서, 항상 함께하겠습니다.",
@@ -341,8 +351,8 @@ const vetInfo = [
     id: 16,
     position: "진료수의사",
     name: "이영주",
-    img: vet14,
-    timg: tvet14,
+    img: vet16,
+    timg: tvet16,
     title: "전남대학교 수의과대학 졸업",
     greetings: "반려동물과 보호자님을 위해 최선을 다하는 수의사입니다.",
     history: [
@@ -356,8 +366,8 @@ const vetInfo = [
     id: 17,
     position: "진료수의사",
     name: "최민영",
-    img: vet14,
-    timg: tvet14,
+    img: vet17,
+    timg: tvet17,
     title: "전남대학교 수의과대학 졸업",
     greetings:
       "소중한 가족인 환자와 보호자님의 행복을 위해 노력하는 수의사입니다.",
@@ -374,8 +384,8 @@ const vetInfo = [
     id: 18,
     position: "진료수의사",
     name: "윤승현",
-    img: vet14,
-    timg: tvet14,
+    img: vet18,
+    timg: tvet18,
     title: "전남대학교 수의과대학 졸업",
     greetings: "책임감 있는 치료로 환자와 보호자님의 소중한 시간을 지킵니다.",
     history: [
@@ -391,8 +401,8 @@ const vetInfo = [
     id: 19,
     position: "진료수의사",
     name: "이송하",
-    img: vet14,
-    timg: tvet14,
+    img: vet19,
+    timg: tvet19,
     title: "전남대학교 수의과대학 졸업",
     greetings: "환자와 보호자님의 미소와 건강을 위해 최선을 다하겠습니다.",
     history: [

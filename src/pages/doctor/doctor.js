@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import Title from "../../components/Title";
 import vetInfo from "../../config/vetInfo";
 import { styled } from "styled-components";
-import img from "../../images/title/visual_incheon.jpeg";
+import img from "../../images/title/단체사진.png";
 import { Typography, Box } from "@mui/material";
 import bgImg from "../../images/kj/진료실복도.png";
 // import bgImg from "../../images/resource/images/DSC06723.jpg";
@@ -50,7 +50,7 @@ function Doctor() {
                 <Typography2>일반외과, 정형외과 / 디스크, 신경외과 등</Typography2>
               </Box> */}
               <ImgBox>
-                <img src={vet.img} alt={vet.name} />
+                <img src={vet.timg} alt={vet.name} />
               </ImgBox>
               {vet.history.length > 0 && (
                 <Box sx={{ marginBottom: 1 }}>
@@ -120,7 +120,7 @@ function Doctor() {
                 )}
               </TextBox2>
               <ImgBox>
-                <img src={vet.img} alt={vet.name} />
+                {vet.timg && <img src={vet.timg} alt={vet.name} />}
               </ImgBox>
             </div>
           </div>
