@@ -50,7 +50,7 @@ function Doctor() {
                 <Typography2>일반외과, 정형외과 / 디스크, 신경외과 등</Typography2>
               </Box> */}
               <ImgBox>
-                <img src={vet.timg} alt={vet.name} />
+                {vet.timg && <img src={vet.timg} alt={vet.name} />}
               </ImgBox>
               {vet.history.length > 0 && (
                 <Box sx={{ marginBottom: 1 }}>
