@@ -77,7 +77,7 @@ const vetInfo = [
     name: "김보미",
     img: vet2,
     timg: tvet2,
-    title: "경희대학교 유전공학과 졸업",
+    title: "제주대학교 수의과대학 졸업",
     greetings: "모든 동물들이 건강하고 행복하도록 최선을 다하겠습니다.",
     history: [
       "경희대학교 유전공학과 졸업",
@@ -104,7 +104,7 @@ const vetInfo = [
     name: "강아란",
     img: vet3,
     timg: tvet3,
-    title: "고려대학교 생체의공학과 졸업",
+    title: "충남대학교 수의과대학 수의학과 졸업",
     greetings: "반려동물과 함께하는 가족의 행복을 위해 늘 함께 하겠습니다.",
     history: [
       "고려대학교 생체의공학과 졸업",
@@ -125,7 +125,7 @@ const vetInfo = [
     name: "허성현",
     img: null,
     timg: null,
-    title: "건국대학교 수의외과학 석사",
+    title: "전북대학교 수의과대학 수의학과 졸업",
     greetings:
       "근거 중심의 정확한 지식을 바탕으로 진정성 있는 수의사가 되도록 최선을 다하겠습니다.",
     history: [
@@ -382,7 +382,7 @@ const vetInfo = [
   },
   {
     id: 18,
-    position: "진료수의사",
+    position: "응급의학과장",
     name: "윤승현",
     img: vet18,
     timg: tvet18,
