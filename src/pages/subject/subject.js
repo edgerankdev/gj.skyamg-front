@@ -328,7 +328,7 @@ const Section2 = styled(Section1)`
     height: calc(100vw * (550 / 1580));
     background: ${(props) => {
       let backgroundImage;
-      console.log(props, backgroundImage);
+      // console.log(props, backgroundImage);
       switch (props.id) {
         case 1:
           backgroundImage = `url(${bg1})`;
