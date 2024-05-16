@@ -37,7 +37,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"predeploy": "yarn build",
-		"deploy": "aws s3 sync ./build s3://kj.skyamg.com --profile=skyamg_s3",
+		"deploy": "aws s3 sync ./build s3://kj.skyamg.com --profile=skyamg_s3 && git tag \"$(date +'%y%m%d%H%M')-배포\" && git push --tags",
 		"postdeploy": "react-snap"
 	},
 	"eslintConfig": {
