@@ -1,7 +1,7 @@
 import vet1 from "../images/vet2/백성현.png";
 import vet2 from "../images/vet2/김보미.png";
 import vet3 from "../images/vet2/강아란.png";
-// import vet4 from "../images/vet/no-img.png";
+import vet4 from "../images/vet2/허성현.png";
 import vet5 from "../images/vet2/윤종현.png";
 import vet6 from "../images/vet2/최예슬.png";
 import vet7 from "../images/vet2/이은지.png";
@@ -17,11 +17,13 @@ import vet16 from "../images/vet2/이영주.png";
 import vet17 from "../images/vet2/최민영.png";
 import vet18 from "../images/vet2/윤승현.png";
 import vet19 from "../images/vet2/이송하.png";
+import vet20 from "../images/vet2/이상규.png";
+import vet21 from "../images/vet2/박진형.png";
 
 import tvet1 from "../images/vet/백성현.png";
 import tvet2 from "../images/vet/김보미.png";
 import tvet3 from "../images/vet/강아란.png";
-// import tvet4 from "../images/vet/no-img.png";
+import tvet4 from "../images/vet/허성현.png";
 import tvet5 from "../images/vet/윤종현.png";
 import tvet6 from "../images/vet/최예슬.png";
 import tvet7 from "../images/vet/이은지.png";
@@ -37,6 +39,8 @@ import tvet16 from "../images/vet/이영주.png";
 import tvet17 from "../images/vet/최민영.png";
 import tvet18 from "../images/vet/윤승현.png";
 import tvet19 from "../images/vet/이송하.png";
+import tvet20 from "../images/vet/이상규.png";
+import tvet21 from "../images/vet/박진형.png";
 
 const vetInfo = [
   {
@@ -123,8 +127,8 @@ const vetInfo = [
     id: 4,
     position: "외과과장",
     name: "허성현",
-    img: null,
-    timg: null,
+    img: vet4,
+    timg: tvet4,
     title: "전북대학교 수의과대학 수의학과 졸업",
     greetings:
       "근거 중심의 정확한 지식을 바탕으로 진정성 있는 수의사가 되도록 최선을 다하겠습니다.",
@@ -411,6 +415,44 @@ const vetInfo = [
       "웨스턴동물의료센터 내과수의사",
       "웨스턴동물의료센터 입원실수의사",
       "현)광주24시스카이동물메디컬센터 야간응급수의사",
+    ],
+    paper: [],
+    completion: [],
+  },
+  {
+    id: 20,
+    position: "진료수의사",
+    name: "이상규",
+    img: vet20,
+    timg: tvet20,
+    title: "전북대학교 수의과대학 수의학과 졸업",
+    greetings: "환자와 보호자님의 미소가 우리의 보람입니다.",
+    history: [
+      "전북대학교 수의과대학 수의학과 졸업",
+      '전북대학교 생화학 실험실',
+      '서울대학교 평창연수원 농장동물교육 수료',
+      '전북대학교 임상로테이션 수료',
+      '전라북도 동물위생시험소 공중방역수의사',
+
+    ],
+    paper: [],
+    completion: [],
+  },
+  {
+    id: 21,
+    position: "진료수의사",
+    name: "박진형",
+    img: vet21,
+    timg: tvet21,
+    title: "전남대학교 수의과대학 졸업",
+    greetings: "따뜻한 마음과 전문성으로 함께하겠습니다.",
+    history: [
+      '전남대학교 수의학과 졸업',
+      '전) 충북대학교 내과 전공수의사',
+      '현) 광주24시스카이동물메디컬센터 내과과장',
+      '2022 ACVIM Forum, Austin, Texas 참가 (2022. 6)',
+      "대한수의학회 추계 학술대회 참가 (2022. 11)",
+      "한국임상수의학 춘계 학술대회 'Evaluation of remnant and metastatic lesions in a cat with alimentary lymphoma using 18F-fluorodeoxyglucose positron emission tomography' 발표 (2023. 5)"
     ],
     paper: [],
     completion: [],
