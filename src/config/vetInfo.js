@@ -185,6 +185,25 @@ const vetInfo = [
     completion: [],
   },
   {
+    id: 21,
+    position: "내과과장",
+    name: "박진형",
+    img: vet21,
+    timg: tvet21,
+    title: "전남대학교 수의과대학 졸업",
+    greetings: "따뜻한 마음과 전문성으로 함께하겠습니다.",
+    history: [
+      '전남대학교 수의학과 졸업',
+      '전) 충북대학교 내과 전공수의사',
+      '현) 광주24시스카이동물메디컬센터 내과과장',
+      '2022 ACVIM Forum, Austin, Texas 참가 (2022. 6)',
+      "대한수의학회 추계 학술대회 참가 (2022. 11)",
+      "한국임상수의학 춘계 학술대회 'Evaluation of remnant and metastatic lesions in a cat with alimentary lymphoma using 18F-fluorodeoxyglucose positron emission tomography' 발표 (2023. 5)"
+    ],
+    paper: [],
+    completion: [],
+  },
+  {
     id: 7,
     position: "영상과장",
     name: "이은지",
@@ -434,25 +453,6 @@ const vetInfo = [
       '전북대학교 임상로테이션 수료',
       '전라북도 동물위생시험소 공중방역수의사',
 
-    ],
-    paper: [],
-    completion: [],
-  },
-  {
-    id: 21,
-    position: "진료수의사",
-    name: "박진형",
-    img: vet21,
-    timg: tvet21,
-    title: "전남대학교 수의과대학 졸업",
-    greetings: "따뜻한 마음과 전문성으로 함께하겠습니다.",
-    history: [
-      '전남대학교 수의학과 졸업',
-      '전) 충북대학교 내과 전공수의사',
-      '현) 광주24시스카이동물메디컬센터 내과과장',
-      '2022 ACVIM Forum, Austin, Texas 참가 (2022. 6)',
-      "대한수의학회 추계 학술대회 참가 (2022. 11)",
-      "한국임상수의학 춘계 학술대회 'Evaluation of remnant and metastatic lesions in a cat with alimentary lymphoma using 18F-fluorodeoxyglucose positron emission tomography' 발표 (2023. 5)"
     ],
     paper: [],
     completion: [],
