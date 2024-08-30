@@ -1,7 +1,7 @@
 import vet1 from "../images/vet2/백성현.png";
 import vet2 from "../images/vet2/김보미.png";
 import vet3 from "../images/vet2/강아란.png";
-import vet4 from "../images/vet2/허성현.png";
+import vet4 from "../images/vet2/민현아.png";
 import vet5 from "../images/vet2/윤종현.png";
 import vet6 from "../images/vet2/최예슬.png";
 import vet7 from "../images/vet2/이은지.png";
@@ -23,7 +23,7 @@ import vet21 from "../images/vet2/박진형.png";
 import tvet1 from "../images/vet/백성현.png";
 import tvet2 from "../images/vet/김보미.png";
 import tvet3 from "../images/vet/강아란.png";
-import tvet4 from "../images/vet/허성현.png";
+import tvet4 from "../images/vet/민현아.png";
 import tvet5 from "../images/vet/윤종현.png";
 import tvet6 from "../images/vet/최예슬.png";
 import tvet7 from "../images/vet/이은지.png";
@@ -126,22 +126,25 @@ const vetInfo = [
   {
     id: 4,
     position: "외과과장",
-    name: "허성현",
+    name: "민현아",
     img: vet4,
     timg: tvet4,
-    title: "전북대학교 수의과대학 수의학과 졸업",
+    title: "충남대학교 수의외과학 석사 졸업",
     greetings:
       "근거 중심의 정확한 지식을 바탕으로 진정성 있는 수의사가 되도록 최선을 다하겠습니다.",
     history: [
-      "전북대학교 수의과대학 수의학과 졸업",
-      "충남대학교 수의과대학 대학원 석사 졸업(수의외과학 전공)",
-      "충남대학교 부속동물병원 진료수의사",
-      "현)광주24시스카이동물메디컬센터 외과과장",
+      "충남대학교 수의과대학 졸업",
+      "충남대학교 수의외과학 석사 졸업",
+      "2019-2020 천안 나우동물의료센터 진료 수의사",
+      "2020-2022 충남대학교 부속동물병원 외과 진료 수의사",
+      "2023-2024 24시 예담동물의료센터 외과 과장",
+      "현) 광주SKY동물메디컬센터 외과 과장",
     ],
     paper: [
-      "Biomechanical Comparison between Inverted Triangle and Vertical Configurations of Three Kirschner Wires for Femoral Neck Fracture Fixation in Dogs - A Cadaveric Study",
+      "2021 임상수의학회 추계학술대회 증례발표 Bougienage Treatment of Severe Dilation of Total Biliary Tract with Common Bile Duct Stricture in a Dog",
+      "2022 J Vet Clin 논문 게재 Cadaveric Feasibility Study of Knotless Barbed Suture for Tracheal Anastomosis in Dogs",
     ],
-    completion: [],
+    completion: ["수의외과학회 정회원"],
   },
   {
     id: 5,
@@ -193,12 +196,12 @@ const vetInfo = [
     title: "전남대학교 수의과대학 졸업",
     greetings: "따뜻한 마음과 전문성으로 함께하겠습니다.",
     history: [
-      '전남대학교 수의학과 졸업',
-      '전) 충북대학교 내과 전공수의사',
-      '현) 광주24시스카이동물메디컬센터 내과과장',
-      '2022 ACVIM Forum, Austin, Texas 참가 (2022. 6)',
+      "전남대학교 수의학과 졸업",
+      "전) 충북대학교 내과 전공수의사",
+      "현) 광주24시스카이동물메디컬센터 내과과장",
+      "2022 ACVIM Forum, Austin, Texas 참가 (2022. 6)",
       "대한수의학회 추계 학술대회 참가 (2022. 11)",
-      "한국임상수의학 춘계 학술대회 'Evaluation of remnant and metastatic lesions in a cat with alimentary lymphoma using 18F-fluorodeoxyglucose positron emission tomography' 발표 (2023. 5)"
+      "한국임상수의학 춘계 학술대회 'Evaluation of remnant and metastatic lesions in a cat with alimentary lymphoma using 18F-fluorodeoxyglucose positron emission tomography' 발표 (2023. 5)",
     ],
     paper: [],
     completion: [],
@@ -448,11 +451,10 @@ const vetInfo = [
     greetings: "환자와 보호자님의 미소가 우리의 보람입니다.",
     history: [
       "전북대학교 수의과대학 수의학과 졸업",
-      '전북대학교 생화학 실험실',
-      '서울대학교 평창연수원 농장동물교육 수료',
-      '전북대학교 임상로테이션 수료',
-      '전라북도 동물위생시험소 공중방역수의사',
-
+      "전북대학교 생화학 실험실",
+      "서울대학교 평창연수원 농장동물교육 수료",
+      "전북대학교 임상로테이션 수료",
+      "전라북도 동물위생시험소 공중방역수의사",
     ],
     paper: [],
     completion: [],
